@@ -1,6 +1,6 @@
 {
   "name": "react-toggle",
-  "version": "2.1.1",
+  "version": "2.1.1-minted",
   "description": "An elegant, accessible toggle component for React. Also a glorified checkbox.",
   "main": "index.js",
   "style": "style.css",
@@ -15,13 +15,13 @@
     "react-component"
   ],
   "author": "Aaron Shafovaloff <aaronshaf@gmail.com>",
-  "homepage": "https://github.com/aaronshaf/react-toggle",
+  "homepage": "https://github.com/minted/react-toggle",
   "repository": {
     "type": "git",
-    "url": "git@github.com:aaronshaf/react-toggle.git"
+    "url": "git@github.com:minted/react-toggle.git"
   },
   "bugs": {
-    "url": "https://github.com/aaronshaf/react-toggle/issues"
+    "url": "https://github.com/minted/react-toggle/issues"
   },
   "license": "MIT",
   "devDependencies": {

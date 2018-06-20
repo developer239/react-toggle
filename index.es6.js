@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import Check from './check'
 import X from './x'
@@ -10,14 +11,14 @@ export default React.createClass({
   displayName: 'Toggle',
 
   propTypes: {
-    checked: React.PropTypes.bool,
-    defaultChecked: React.PropTypes.bool,
-    onChange: React.PropTypes.func,
-    name: React.PropTypes.string,
-    value: React.PropTypes.string,
-    id: React.PropTypes.string,
-    'aria-labelledby': React.PropTypes.string,
-    'aria-label': React.PropTypes.string
+    checked: PropTypes.bool,
+    defaultChecked: PropTypes.bool,
+    onChange: PropTypes.func,
+    name: PropTypes.string,
+    value: PropTypes.string,
+    id: PropTypes.string,
+    'aria-labelledby': PropTypes.string,
+    'aria-label': PropTypes.string
   },
 
   getInitialState() {
